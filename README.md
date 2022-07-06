@@ -26,9 +26,9 @@ quality_predict=QVDVQA(frames,vqamodel)
 ### 1. Feature extraction
 
 ```matlab
-frames=single(Yuv2Frame(video_path, video_height, video_width));% for .yuv video
+%frames=single(Yuv2Frame(video_path, video_height, video_width));% for .yuv video
 
-% frames=single(MP4Read(video_path));% for .mp4 video
+frames=single(MP4Read('testvideo.mp4'));% for .mp4 video
 
 features=VideoFeatExtrat(frames,'gpu');  % cpu or gpu are supported
 
