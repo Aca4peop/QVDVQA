@@ -11,7 +11,7 @@ function [motion]=MotionOnR(R)
 
 v1=R(:,:,1:end-1)*255;
 v2=R(:,:,2:end)*255;
-window = fspecial('gaussian', 7, 1.5);%11 1.5
+window = fspecial('gaussian', 11, 1.5);
 window = window/sum(sum(window));
 ux=convn(v1,window,'same');
 uy=convn(v2,window,'same');

@@ -11,7 +11,7 @@ function qp=QVDVQA(frames,model)
 %-------------------------------------------------
 
 features=VideoFeatExtrat(frames,'cpu');
-features=minmax(features,model.fmax,model.fmin);
-[qp,~,~]=svmpredict(zeros(1,1),features,model.svrmodel);
+features=double(minmax(features,model.fmax,model.fmin));
+[qp,~,~]=svmpredict(ones(1,1),features,model.svrmodel);
 
 end

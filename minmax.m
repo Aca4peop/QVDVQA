@@ -18,7 +18,7 @@ for j=1:size(data,2)
     ffmax(j)=max(data(:,j));
     ffmin(j)=min(data(:,j));
     end
-    data(:,j)=(data(:,j)-ffmin(j))/(ffmax-ffmin(j));
+    data(:,j)=(data(:,j)-ffmin(j))/(ffmax(j)-ffmin(j));
 end
 
 

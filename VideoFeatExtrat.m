@@ -22,7 +22,7 @@ elseif device~='cpu'
 end
 %%
 feat=[];
-saclenum=1;
+saclenum=3;
 for s=1:saclenum
     
 if device=='gpu'
