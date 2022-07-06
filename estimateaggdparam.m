@@ -1,4 +1,10 @@
 function [alpha leftstd rightstd] = estimateaggdparam(vec)
+%------------------------------------------------
+% Code for AGGD parameter estimation.
+% This code is from BRISQUE algorithm.
+%
+%-------------------------------------------------
+
 vec=vec-mean(vec(:));
 gam   = 0.2:0.001:10;
 r_gam = ((gamma(2./gam)).^2)./(gamma(1./gam).*gamma(3./gam));

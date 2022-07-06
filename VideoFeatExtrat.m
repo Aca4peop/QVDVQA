@@ -1,4 +1,14 @@
 function feat=VideoFeatExtrat(frames,device)
+%------------------------------------------------
+% Feature extraction on video
+%
+%Inputs:
+%   frames:video frames with grayscale
+%   device: 'gpu' or 'cpu'
+%Outputs:
+%   feat:QVDVQA features 
+%-------------------------------------------------
+%%
 if device=='gpu'
     if ~canUseGPU()
         errID = 'VideoFeatExtrat:device';
@@ -6,11 +16,11 @@ if device=='gpu'
        throw(MException(errID,msg));
     end
 elseif device~='cpu'
-      errID = 'VideoFeatExtrat:device';
+      errID = 'QVDVQA:VideoFeatExtrat:device';
         msg = 'Unrecognized device parameter.Only supprt cpu or gpu';
        throw(MException(errID,msg));  
 end
-
+%%
 feat=[];
 saclenum=1;
 for s=1:saclenum

@@ -1,4 +1,15 @@
 function [AGGDS,Id]=FrameFeatExtrat(R,I,device)
+%------------------------------------------------
+% Spatial feature extraction on frame.
+%
+%Inputs:
+%   R:reflectance component
+%   
+%Outputs:
+%   AGGDS:NSS features
+%   Id:illumination variation features
+%-------------------------------------------------
+
 %% R
 R(R==0)=0.001;
 windows = fspecial('gaussian',7,1.8);

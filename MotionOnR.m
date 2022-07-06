@@ -1,4 +1,14 @@
 function [motion]=MotionOnR(R)
+%------------------------------------------------
+% Motion estimation on the reflectance component.
+%
+%Inputs:
+%   R:reflectance component
+%   
+%Outputs:
+%   motion:estimated motion 
+%-------------------------------------------------
+
 v1=R(:,:,1:end-1)*255;
 v2=R(:,:,2:end)*255;
 window = fspecial('gaussian', 7, 1.5);%11 1.5

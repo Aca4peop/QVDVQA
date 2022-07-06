@@ -1,4 +1,13 @@
 function [motion]=MotionOnI(I)
+%------------------------------------------------
+% Motion estimation on the illumination component.
+%
+%Inputs:
+%   I:illumination component
+%   
+%Outputs:
+%   motion:estimated motion 
+%-------------------------------------------------
 v1=I(:,:,1:end-1);
 v2=I(:,:,2:end);
 window = fspecial('gaussian', 7, 1.5);%11 1.5
