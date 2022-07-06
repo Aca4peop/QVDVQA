@@ -34,6 +34,7 @@ features=VideoFeatExtrat(frames,'gpu');  % cpu or gpu are supported
 
 
 ```
+The provided model was trained on the entire LIVE database.
 
 ### 2. Model training
 
@@ -52,4 +53,5 @@ The train_dmos are dmos (video num × 1) of training sets.
 
 # Demo
 
-We provide a demo for training and evaluating model on the LIVE database.
+We provide a [demo](https://github.com/Aca4peop/QVDVQA/tree/main/demo) for training and evaluating model on the LIVE database.
+# Contact
