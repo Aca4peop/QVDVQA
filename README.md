@@ -4,11 +4,11 @@
 # Description
 Matlab code for *Motion Measurement and Quality Variation Driven Video Quality Assessment*
 
-# Requirement
+# Requirements
 
 **LibSVM：** [LIBSVM -- A Library for Support Vector Machines (ntu.edu.tw)](https://www.csie.ntu.edu.tw/~cjlin/libsvm/) 
 
-# Usage
+# Usages
 
 ## 1. Quality prediction
 
