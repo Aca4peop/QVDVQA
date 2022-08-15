@@ -6,7 +6,8 @@ Matlab code for *Motion Measurement and Quality Variation Driven Video Quality A
 
 # Requirements
 
-**LibSVM：** [LIBSVM -- A Library for Support Vector Machines (ntu.edu.tw)](https://www.csie.ntu.edu.tw/~cjlin/libsvm/) 
+**LibSVM：** [LIBSVM -- A Library for Support Vector Machines (ntu.edu.tw)](https://www.csie.ntu.edu.tw/~cjlin/libsvm/)   
+
 **LibSVM-extension-FarutoUltimate：** https://github.com/faruto/Libsvm-FarutoUltimate-Version
 
 # Usages
@@ -56,5 +57,5 @@ The train_dmos are dmos (video num × 1) of training sets.
 
 We provide a [demo](https://github.com/Aca4peop/QVDVQA/tree/main/demo) for training and evaluating model on the LIVE database.
 # Contact
-zyhu@bit.edu.cn
+zyhu@bit.edu.cn  
 lxliu@bit.edu.cn
