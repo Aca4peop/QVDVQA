@@ -2,7 +2,8 @@
 
 [![license](https://img.shields.io/github/license/Aca4peop/QVDVQA)](https://github.com/Aca4peop/QVDVQA/blob/main/LICENSE)
 # Description
-Matlab code for *Motion Measurement and Quality Variation Driven Video Quality Assessment*
+Matlab implementation for the following paper:  
+ [Z. Hu and L. Liu,"Motion Measurement and Quality Variation Driven Video Quality Assessment," Displays, doi:10.1016/j.displa.2022.102289.](https://doi.org/10.1016/j.displa.2022.102289)
 
 # Requirements
 
