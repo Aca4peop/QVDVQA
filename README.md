@@ -9,7 +9,7 @@ Matlab implementation for the following paper:
 
 **LibSVM：** [LIBSVM -- A Library for Support Vector Machines (ntu.edu.tw)](https://www.csie.ntu.edu.tw/~cjlin/libsvm/)   
 
-**LibSVM-extension-FarutoUltimate：** https://github.com/faruto/Libsvm-FarutoUltimate-Version
+**LibSVM-extension-FarutoUltimate (for model training)：** https://github.com/faruto/Libsvm-FarutoUltimate-Version
 
 # Usages
 
