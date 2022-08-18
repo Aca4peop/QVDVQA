@@ -1,7 +1,10 @@
 function [alpha leftstd rightstd] = estimateaggdparam(vec)
 %------------------------------------------------
 % Code for AGGD parameter estimation.
-% This code is from BRISQUE algorithm.
+% This code is from BRISQUE algorithm:
+% A. Mittal, A. K. Moorthy and A. C. Bovik, "No-Reference Image Quality Assessment
+% in the Spatial Domain," IEEE Transactions on Image Processing, vol. 21, no. 12, 
+% pp. 4695-4708, Dec. 2012.
 %
 %-------------------------------------------------
 
