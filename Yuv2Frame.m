@@ -1,6 +1,6 @@
 function frame = Yuv2Frame(filename, height,width, frameNum)
 %------------------------------------------------
-% Read grayscale frames from .yuv file
+% Read grayscale frames from .yuv (YUV420) file
 %
 %-------------------------------------------------
 if (nargin == 3)
