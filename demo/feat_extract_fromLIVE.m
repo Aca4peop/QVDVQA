@@ -11,7 +11,7 @@ filename=[root  name]
 frames=double(Yuv2Frame(filename, 432, 768));
 tic
 try
-feat(i,:)=VideoFeatExtrat(frames,'cpu');
+feat(i,:)=VideoFeatExtrat(frames,'gpu');
 catch
 feat(i,:)=VideoFeatExtrat(frames,'cpu');
 end
