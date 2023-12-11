@@ -58,5 +58,4 @@ The train_dmos are dmos (video num × 1) of training sets.
 
 We provide a [demo](https://github.com/Aca4peop/QVDVQA/tree/main/demo) for training and evaluating model on the LIVE database.
 # Contact
-zyhu@bit.edu.cn  
-lxliu@bit.edu.cn
+zyhu AT bit DOT edu DOT cn  
